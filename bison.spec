@@ -1,7 +1,7 @@
 Summary:	A GNU general-purpose parser generator
 Name:		bison
 Version:	2.6.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnu.org/gnu/bison/%{name}-%{version}.tar.xz
@@ -79,8 +79,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README THANKS TODO
 %attr(755,root,root) %{_bindir}/bison
-# would conflict with byacc (but is not 100% compatible)
-#%attr(755,root,root) %{_bindir}/yacc
+%attr(755,root,root) %{_bindir}/yacc
 %{pkgdatadir}
 %{_libdir}/lib*.a
 %{_aclocaldir}/bison-i18n.m4
