@@ -1,11 +1,11 @@
 Summary:	A GNU general-purpose parser generator
 Name:		bison
-Version:	2.7.1
+Version:	3.0
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnu.org/gnu/bison/%{name}-%{version}.tar.xz
-# Source0-md5:	7be02eb973eccf388f1ae750fc09eed0
+# Source0-md5:	a2624994561aa69f056c904c1ccb2880
 BuildRequires:	automake
 BuildRequires:	gettext
 BuildRequires:	m4
@@ -53,12 +53,8 @@ bison-generated parsers.
 	pkgdatadir=%{pkgdatadir}
 
 %check
-%if 0
-# test 15 fails:
-# 15: Require 2.7.12-4996	FAILED (input.at:711)
 cd tests
 ./testsuite
-%endif
 
 %install
 rm -rf $RPM_BUILD_ROOT
