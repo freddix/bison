@@ -1,11 +1,11 @@
 Summary:	A GNU general-purpose parser generator
 Name:		bison
-Version:	3.0.1
+Version:	3.0.2
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnu.org/gnu/bison/%{name}-%{version}.tar.xz
-# Source0-md5:	032a7b7b9f1a6e278ccde73f82cec5c2
+# Source0-md5:	146be9ff9fbd27497f0bf2286a5a2082
 BuildRequires:	automake
 BuildRequires:	gettext
 BuildRequires:	m4
