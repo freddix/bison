@@ -1,7 +1,8 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/bison.git
 Summary:	A GNU general-purpose parser generator
 Name:		bison
 Version:	3.0.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnu.org/gnu/bison/%{name}-%{version}.tar.xz
